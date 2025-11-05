@@ -177,10 +177,10 @@ All colors MUST be HSL.
   
   /* Neon glow effect */
   .neon-glow {
-    text-shadow: 0 0 10px hsl(var(--primary) / 0.8),
-                 0 0 20px hsl(var(--primary) / 0.6),
-                 0 0 40px hsl(var(--primary) / 0.4),
-                 0 0 60px hsl(var(--accent) / 0.3);
+    text-shadow: 0 0 5px hsl(var(--primary) / 0.4),
+                 0 0 10px hsl(var(--primary) / 0.3),
+                 0 0 20px hsl(var(--primary) / 0.2),
+                 0 0 30px hsl(var(--accent) / 0.15);
   }
   
   /* Gradient backgrounds */
