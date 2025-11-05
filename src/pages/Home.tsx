@@ -161,7 +161,7 @@ export default function Home() {
           </div>
 
           {/* Price Section */}
-          <Card className="p-8 md:p-12 glass-card animated-border text-center animate-pulse-glow relative overflow-hidden">
+          <Card className="p-8 md:p-12 glass-card animated-border text-center relative overflow-hidden">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-accent/10 to-primary/20 -z-10"></div>
             <div className="space-y-6 relative z-10">
               <div>
