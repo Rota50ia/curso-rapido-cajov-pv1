@@ -14,8 +14,8 @@ export default function Home() {
       });
     }
     
-    // Redirecionar para checkout/pagamento
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Redirecionar para checkout Eduzz
+    window.location.href = 'https://chk.eduzz.com/VWGZ2XYO07?utm_source=cajon&utm_medium=an&utm_campaign=cam+1+cajon&utm_id=pv';
   };
 
   return (
