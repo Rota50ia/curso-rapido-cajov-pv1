@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { CheckCircle2, Zap, Shield, Clock, TrendingUp, Target } from "lucide-react";
 import professorImage from "@/assets/professor-edilson.png";
+import garantiaImage from "@/assets/garantia.png";
 
 export default function Home() {
   const handleBuyClick = () => {
@@ -245,9 +246,11 @@ export default function Home() {
       <section className="container py-16 md:py-24 relative z-10">
         <Card className="max-w-4xl mx-auto p-8 md:p-12 glass-card border-2 border-green-500/50 card-hover">
           <div className="flex items-start gap-6">
-            <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center flex-shrink-0 shadow-lg shadow-green-500/50">
-              <Shield className="w-8 h-8 text-white" />
-            </div>
+            <img 
+              src={garantiaImage} 
+              alt="Garantia 15 dias incondicional" 
+              className="w-24 h-24 flex-shrink-0"
+            />
             <div>
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-green-400 neon-glow" style={{ textShadow: '0 0 20px rgb(74 222 128 / 0.5)' }}>
                 GARANTIA SEM ENROLAÇÃO:
