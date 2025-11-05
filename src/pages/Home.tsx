@@ -296,8 +296,47 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="container py-8 border-t text-center text-muted-foreground">
-        <p>© 2025 Curso Rápido de Cajón. Todos os direitos reservados.</p>
+      <footer className="container py-12 border-t relative z-10">
+        <div className="max-w-4xl mx-auto space-y-6 text-center">
+          <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
+            <a 
+              href="https://politica-de-privacidade.rota50ia.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors underline"
+            >
+              Termos de Uso
+            </a>
+            <span>|</span>
+            <a 
+              href="https://politica-de-privacidade.rota50ia.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-primary transition-colors underline"
+            >
+              Política de Privacidade
+            </a>
+          </div>
+          
+          <p className="text-sm text-muted-foreground">
+            Todos os direitos reservados – Edilson Morais 2025
+          </p>
+          
+          <div className="space-y-2">
+            <p className="text-sm text-muted-foreground">
+              Contato:{" "}
+              <a 
+                href="mailto:edilsomdil@gmail.com" 
+                className="text-primary hover:underline"
+              >
+                edilsomdil@gmail.com
+              </a>
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Desenvolvido por Edilson Morais
+            </p>
+          </div>
+        </div>
       </footer>
     </div>
   );
