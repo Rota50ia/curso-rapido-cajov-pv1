@@ -131,6 +131,21 @@ export default function Home() {
         </Card>
       </section>
 
+      {/* Professor Section */}
+      <section className="container py-16 md:py-24 relative z-10">
+        <Card className="max-w-4xl mx-auto p-8 md:p-12 glass-card card-hover">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">SEU PROFESSOR</h2>
+          <div className="space-y-4 text-lg md:text-xl">
+            <p>Edilson Morais — 40 anos na estrada. Conservatórios, orquestras, 20 países, centenas de gravações, dezenas de artistas.</p>
+            <p className="pt-4 font-semibold">Mas sinceramente? Isso não importa.</p>
+            <p className="text-xl font-bold text-primary">
+              O que importa é se você vai estar no palco ou não.
+            </p>
+            <p className="pt-4">Essa página não é sobre mim. É sobre você.</p>
+          </div>
+        </Card>
+      </section>
+
       {/* What You Get Section */}
       <section className="container py-16 md:py-24 gradient-bg-2 -mx-4 px-4 relative z-10">
         <div className="max-w-4xl mx-auto">
