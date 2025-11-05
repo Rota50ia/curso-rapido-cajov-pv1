@@ -190,7 +190,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-accent/10 to-primary/20 -z-10"></div>
             <div className="space-y-6 relative z-10">
               <div>
-                <p className="text-lg line-through opacity-70">Valor Real: R$ 197,00</p>
+                <p className="text-xl md:text-2xl font-bold line-through text-destructive">Valor Real: R$ 197,00</p>
                 <p className="text-2xl font-semibold mt-2">Seu Investimento Hoje:</p>
               </div>
               <div className="text-7xl md:text-8xl font-black gradient-text neon-glow">
