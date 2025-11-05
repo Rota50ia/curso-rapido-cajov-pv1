@@ -181,14 +181,26 @@ export default function Home() {
       <section className="container py-16 md:py-24">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">POR QUE ESSE PREÇO?</h2>
-          <div className="space-y-4 text-lg md:text-xl">
-            <p>Porque eu quero que você não tenha desculpa.</p>
-            <p>
-              Se R$ 87,00 é muito para você aprender a tocar cajón e se apresentar no palco, então você não está levando isso a sério.
-            </p>
-            <p className="pt-4">
-              Um almoço custa R$ 40,00. Poucas horas no bar custa bem mais que R$ 100,00. 30 aulas que te levam ao palco custam R$ 87,00.
-            </p>
+          <div className="space-y-6 text-lg md:text-xl">
+            <p className="text-xl font-semibold">Porque eu quero que você não tenha desculpa.</p>
+            
+            <div className="space-y-4 pl-6">
+              <div className="flex items-start gap-4">
+                <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p>Se R$ 87,00 é muito para você aprender a tocar cajón e se apresentar no palco, então você não está levando isso a sério.</p>
+              </div>
+              
+              <div className="flex items-start gap-4">
+                <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p>Um almoço custa R$ 40,00.</p>
+              </div>
+              
+              <div className="flex items-start gap-4">
+                <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                <p>Poucas horas no bar custa bem mais que R$ 100,00. 30 aulas que te levam ao palco custam R$ 87,00.</p>
+              </div>
+            </div>
+            
             <p className="text-2xl font-bold text-primary pt-4">
               Divida aí, faça as contas do preço por cada aula.
             </p>
