@@ -281,7 +281,7 @@ export default function Home() {
       {/* Last Thing Section */}
       <section className="container py-16 md:py-24 relative z-10">
         <Card className="max-w-4xl mx-auto p-8 md:p-12 glass-card animated-border card-hover">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 neon-glow">ÚLTIMA COISA:</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">ÚLTIMA COISA:</h2>
           <div className="space-y-4 text-lg md:text-xl">
             <p>Eu não vou ficar te perseguindo.</p>
             <p>Eu não vou mandar 47 emails implorando para você comprar.</p>
