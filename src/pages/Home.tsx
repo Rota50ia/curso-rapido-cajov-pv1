@@ -4,7 +4,16 @@ import { CheckCircle2, Zap, Shield, Clock, TrendingUp, Target } from "lucide-rea
 
 export default function Home() {
   const handleBuyClick = () => {
-    // Aqui você pode adicionar a lógica de checkout/pagamento
+    // Track Meta Pixel conversion event
+    if (typeof window !== 'undefined' && (window as any).fbq) {
+      (window as any).fbq('track', 'InitiateCheckout', {
+        content_name: 'Curso Rápido de Cajón',
+        value: 87.00,
+        currency: 'BRL'
+      });
+    }
+    
+    // Redirecionar para checkout/pagamento
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
