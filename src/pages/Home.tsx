@@ -44,7 +44,7 @@ export default function Home() {
       {/* Truth Section */}
       <section className="container py-16 md:py-24 relative z-10">
         <Card className="max-w-4xl mx-auto p-8 md:p-12 glass-card animated-border card-hover">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary neon-glow">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary" style={{ textShadow: '0 0 2px hsl(217 91% 65% / 0.16), 0 0 4px hsl(217 91% 65% / 0.12)' }}>
             A VERDADE QUE NINGUÉM TE CONTA:
           </h2>
           <div className="space-y-4 text-lg md:text-xl text-foreground/90">
