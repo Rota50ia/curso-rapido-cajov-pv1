@@ -196,7 +196,7 @@ export default function Home() {
               <div className="text-7xl md:text-8xl font-black gradient-text neon-glow">
                 R$ 87<span className="text-4xl">,00</span>
               </div>
-              <p className="text-xl opacity-90">ou 3x de R$ 29,00</p>
+              <p className="text-2xl md:text-3xl font-bold text-primary neon-glow mt-2">ou 3x de R$ 31,05</p>
               <Button 
                 size="lg" 
                 onClick={handleBuyClick}
@@ -304,7 +304,7 @@ export default function Home() {
           >
             COMPRAR AGORA POR R$ 87,00
           </Button>
-          <p className="text-lg text-muted-foreground">(ou 3x de R$ 29,00 no cartão)</p>
+          <p className="text-xl md:text-2xl font-bold text-primary neon-glow">(ou 3x de R$ 31,05 no cartão)</p>
         </div>
       </section>
 
