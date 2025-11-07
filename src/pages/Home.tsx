@@ -229,7 +229,7 @@ export default function Home() {
               <Button 
                 size="lg" 
                 onClick={handleBuyClick}
-                className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-6 sm:py-7 md:py-8 h-auto font-bold shadow-2xl hover:scale-105 md:hover:scale-110 transition-all duration-300 hover:shadow-primary/50"
+                className="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 text-sm sm:text-base md:text-lg lg:text-xl px-4 sm:px-6 md:px-8 lg:px-12 py-4 sm:py-5 md:py-6 lg:py-7 h-auto font-bold shadow-2xl hover:scale-105 transition-all duration-300 hover:shadow-primary/50 whitespace-normal break-words leading-tight"
               >
                 👇 SIM, EU QUERO DOMINAR O CAJÓN E PISAR NO PALCO 👇
               </Button>
@@ -331,7 +331,7 @@ export default function Home() {
           <Button 
             size="lg" 
             onClick={handleBuyClick}
-            className="w-full sm:w-auto glass-card border-2 border-primary text-foreground hover:bg-primary hover:text-primary-foreground text-base sm:text-lg md:text-2xl px-8 sm:px-12 md:px-16 py-8 sm:py-9 md:py-10 h-auto font-black shadow-2xl hover:scale-105 md:hover:scale-110 transition-all duration-300 animate-pulse-glow neon-glow"
+            className="w-full sm:w-auto glass-card border-2 border-primary text-foreground hover:bg-primary hover:text-primary-foreground text-base sm:text-lg md:text-xl lg:text-2xl px-6 sm:px-8 md:px-12 lg:px-16 py-6 sm:py-7 md:py-8 lg:py-9 h-auto font-black shadow-2xl hover:scale-105 transition-all duration-300 animate-pulse-glow neon-glow whitespace-normal break-words leading-tight"
           >
             COMPRAR AGORA POR R$ 87,00
           </Button>
