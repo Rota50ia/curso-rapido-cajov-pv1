@@ -280,14 +280,14 @@ export default function Home() {
               className="w-24 h-24 flex-shrink-0"
             />
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-green-400 neon-glow" style={{ textShadow: '0 0 20px rgb(74 222 128 / 0.5)' }}>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-green-400 neon-glow" style={{ textShadow: '0 0 20px rgb(74 222 128 / 0.5)' }}>
                 GARANTIA SEM ENROLAÇÃO:
               </h2>
-              <div className="space-y-4 text-lg md:text-xl">
-                <p className="font-bold">15 dias. Sem perguntas.</p>
-                <p>Se você não gostar, me manda um email e eu devolvo cada centavo.</p>
-                <p>Sem burocracia. Sem enrolação. Porque desde o método até o reembolso NADA aqui tem enrolação.</p>
-                <p className="pt-4 font-semibold text-primary">
+              <div className="space-y-4 text-base sm:text-lg md:text-xl">
+                <p className="font-bold text-base sm:text-lg md:text-xl">15 dias. Sem perguntas.</p>
+                <p className="text-base sm:text-lg md:text-xl">Se você não gostar, me manda um email e eu devolvo cada centavo.</p>
+                <p className="text-base sm:text-lg md:text-xl">Sem burocracia. Sem enrolação. Porque desde o método até o reembolso NADA aqui tem enrolação.</p>
+                <p className="pt-4 font-semibold text-primary text-base sm:text-lg md:text-xl">
                   Mas eu sei que você não vai pedir reembolso. Porque esse sistema funciona.
                 </p>
               </div>
