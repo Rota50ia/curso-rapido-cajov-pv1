@@ -20,39 +20,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen gradient-bg-1 relative overflow-hidden">
-      {/* JSON-LD Structured Data for SEO */}
-      <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Course",
-          "name": "Curso Rápido de Cajón - Do Zero ao Palco em 30 Dias",
-          "description": "Aprenda cajón do zero ao palco com método comprovado. 30 aulas práticas e diretas com Professor Edilson Morais.",
-          "provider": {
-            "@type": "Organization",
-            "name": "Curso Rápido de Cajón",
-            "sameAs": "https://lovable.app/projects/1a57e6c9-75e5-47a5-ac13-1d9ee7c64f2e"
-          },
-          "instructor": {
-            "@type": "Person",
-            "name": "Edilson Morais",
-            "description": "Professor de percussão com 40 anos de experiência, conservatórios, orquestras, 20 países"
-          },
-          "offers": {
-            "@type": "Offer",
-            "url": "https://lovable.app/projects/1a57e6c9-75e5-47a5-ac13-1d9ee7c64f2e",
-            "priceCurrency": "BRL",
-            "price": "87.00",
-            "availability": "https://schema.org/InStock",
-            "validFrom": "2025-01-01"
-          },
-          "hasCourseInstance": {
-            "@type": "CourseInstance",
-            "courseMode": "online",
-            "courseWorkload": "PT30H"
-          }
-        })}
-      </script>
+    <div className="min-h-screen gradient-bg-1 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-[120px] animate-float"></div>
@@ -60,20 +28,20 @@ export default function Home() {
       </div>
       
       {/* Hero Section */}
-      <header className="container py-20 md:py-32 relative z-10">
+      <section className="container py-20 md:py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8 animate-fade-in-up">
           <div className="inline-block px-6 py-2 glass-card rounded-full text-primary font-bold text-sm mb-4 neon-glow">
             CURSO RÁPIDO DE CAJÓN
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-black leading-tight">
-            Curso Cajón: Do Zero ao Palco em{" "}
-            <span className="gradient-text neon-glow">30 Dias</span>
+          <h1 className="text-5xl md:text-7xl font-black leading-tight">
+            Do Zero ao Palco em{" "}
+            <span className="gradient-text neon-glow">Tempo Recorde</span>
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto font-medium">
-            Aprenda cajón com método comprovado do Professor Edilson Morais. 30 aulas práticas para você dominar o instrumento e tocar no palco.
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto font-medium">
+            Pare de perder tempo. Se você quer dominar o cajón de verdade e pisar em um palco de verdade, continue lendo.
           </p>
         </div>
-      </header>
+      </section>
 
       {/* Truth Section */}
       <section className="container py-16 md:py-24 relative z-10">
@@ -233,8 +201,7 @@ export default function Home() {
               <Button 
                 size="lg" 
                 onClick={handleBuyClick}
-                className="bg-primary text-primary-foreground hover:bg-primary/90 text-base sm:text-lg md:text-xl px-6 sm:px-8 md:px-12 py-6 sm:py-7 md:py-8 h-auto font-bold shadow-2xl hover:scale-105 md:hover:scale-110 transition-all duration-300 hover:shadow-primary/50 w-full sm:w-auto"
-                aria-label="Comprar curso de cajón por R$ 87"
+                className="bg-primary text-primary-foreground hover:bg-primary/90 text-xl px-12 py-8 h-auto font-bold shadow-2xl hover:scale-110 transition-all duration-300 hover:shadow-primary/50"
               >
                 👇 SIM, EU QUERO DOMINAR O CAJÓN E PISAR NO PALCO 👇
               </Button>
@@ -336,8 +303,7 @@ export default function Home() {
           <Button 
             size="lg" 
             onClick={handleBuyClick}
-            className="glass-card border-2 border-primary text-foreground hover:bg-primary hover:text-primary-foreground text-lg sm:text-xl md:text-2xl px-8 sm:px-12 md:px-16 py-8 sm:py-9 md:py-10 h-auto font-black shadow-2xl hover:scale-105 md:hover:scale-110 transition-all duration-300 animate-pulse-glow neon-glow w-full sm:w-auto"
-            aria-label="Comprar curso de cajón agora por R$ 87"
+            className="glass-card border-2 border-primary text-foreground hover:bg-primary hover:text-primary-foreground text-2xl px-16 py-10 h-auto font-black shadow-2xl hover:scale-110 transition-all duration-300 animate-pulse-glow neon-glow"
           >
             COMPRAR AGORA POR R$ 87,00
           </Button>
@@ -358,7 +324,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="container py-12 border-t relative z-10" role="contentinfo">
+      <footer className="container py-12 border-t relative z-10">
         <div className="max-w-4xl mx-auto space-y-6 text-center">
           <div className="flex items-center justify-center gap-4 text-sm text-muted-foreground">
             <a 
@@ -400,6 +366,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-    </main>
+    </div>
   );
 }
