@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { CheckCircle2, Zap, Shield, Clock, TrendingUp, Target } from "lucide-react";
 import professorImage from "@/assets/professor-edilson.png";
-import garantiaImage from "@/assets/garantia.png";
+import garantiaImage from "@/assets/garantia-15-dias.png";
 
 export default function Home() {
   const handleBuyClick = () => {
